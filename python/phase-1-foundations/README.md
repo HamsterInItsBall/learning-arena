@@ -7,7 +7,7 @@ topics in later phases.
 
 ---
 
-## 📚 **Introduction to Python**
+## 📚 [**Introduction to Python**](./introduction-to-python)
 In this section, I’ll explore the core idea of Python and why it’s one of the most popular programming languages. 
 I’ll also set up my development environment and run my first Python script.
 
