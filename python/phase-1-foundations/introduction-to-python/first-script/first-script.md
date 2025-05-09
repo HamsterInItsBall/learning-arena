@@ -1,4 +1,4 @@
-# ** First Python Script - Hello, World! with User Interaction**
+# **First Python Script - Hello, World! with User Interaction**
 
 In this part of my learning journey, I wrote my very first Python script.  
 I started with the classic **"Hello, World!"**, but I wanted to make it a bit more interesting for myself.
