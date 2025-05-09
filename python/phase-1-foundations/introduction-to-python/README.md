@@ -49,7 +49,7 @@ It’s used by companies like **Google, Netflix, Spotify**, and **NASA** for var
 - Install the Python extension in VS Code for syntax highlighting and IntelliSense.
 
 ###3. Install Git (Version Control Tool)
-- Download from: https://git-scm.com/downloads
+- Download from: [Git](https://git-scm.com/downloads)
 - **Verify installation**:
   ```bash
   git --version
