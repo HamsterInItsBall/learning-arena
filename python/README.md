@@ -23,6 +23,10 @@ I will also work on visualizing algorithms through small interactive projects.
 
 ---
 
+<a href="https://roadmap.sh"><img src="https://roadmap.sh/card/tall/680b6d0d734e1042d097c654?variant=dark&roadmaps=python" alt="roadmap.sh"/></a>
+
+---
+
 ## **How to Use This Repository**  
 
 Clone the repository to your local machine by running the following command in your terminal:  
