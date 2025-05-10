@@ -53,7 +53,3 @@ It’s used by companies like **Google, Netflix, Spotify**, and **NASA** for var
 - **Verify installation**:
   ```bash
   git --version
-
-
-
-  
