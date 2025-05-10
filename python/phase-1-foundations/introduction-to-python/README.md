@@ -44,11 +44,11 @@ It’s used by companies like **Google, Netflix, Spotify**, and **NASA** for var
   ```bash
   python --version
 
-###2. Install Visual Studio Code (VS Code)
+### 2. Install Visual Studio Code (VS Code)
 - Download from: [VisualStudio](https://code.visualstudio.com/)
 - Install the Python extension in VS Code for syntax highlighting and IntelliSense.
 
-###3. Install Git (Version Control Tool)
+### 3. Install Git (Version Control Tool)
 - Download from: [Git](https://git-scm.com/downloads)
 - **Verify installation**:
   ```bash
