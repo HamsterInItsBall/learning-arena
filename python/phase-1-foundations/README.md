@@ -17,7 +17,7 @@ I’ll also set up my development environment and run my first Python script.
 
 ---
 
-## 📝 **Python Syntax & Variables**
+## 📝 [**Python Syntax & Variables**](./python-syntax-&-variables)
 Here, I'll dive into the basics of Python syntax, variables, and different data types. 
 I'll also explore control flow, including conditionals and loops, and will build my first small project.
 
