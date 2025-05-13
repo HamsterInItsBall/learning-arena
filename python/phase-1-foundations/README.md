@@ -28,7 +28,7 @@ I'll also explore control flow, including conditionals and loops, and will build
 
 ---
 
-## ⚙️ **Control Flow & Functions**
+## ⚙️ [**Control Flow & Functions**](./control-flow-&-functions)
 In this section, I’ll learn about more advanced control flow features like type casting, error handling (exceptions), and functions.
 I'll also build another small project to practice using functions and error handling.
 
