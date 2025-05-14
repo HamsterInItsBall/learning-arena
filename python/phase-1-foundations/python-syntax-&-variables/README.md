@@ -8,12 +8,12 @@ I'll also explore control flow, including conditionals and loops, and will build
 
 ## **What I Will Learn in This Section**
 
-### **Basic Syntax**
+### [**Basic Syntax**](./Basic Syntax.md)
 - Understanding how Python code is structured.
 - Using **indentation** (spaces or tabs) to define code blocks (no curly braces like in other languages).
 - Writing **comments** to explain code for myself and others.
 
-### **Variables and Data Types**
+### **[Variables](./Variables.md) and Data Types**
 - Creating and using **variables** to store information.
 - Working with different **data types**, such as:
   - **Numbers** (`int`, `float`)
