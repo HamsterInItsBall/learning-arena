@@ -211,26 +211,58 @@ This helped me practice:
   
 ---
 ## **Global vs Local Variables**
-### Global Example:
+### **Global Variables (Available Everywhere)**
+A **global variable** is **created outside** of any function.
+This means it can be **used anywhere** in the file — inside or outside functions.
+
+#### Global Example:
   ```python
-  x = "awesome"
+  x = "awesome" # Global variable
 
   def myfunc():
-    print("Python is " + x)
+    print("Python is " + x) # Uses the global variable
 
   myfunc()
   ```
-### Local Example:
+- x is defined outside the function.
+- -The function can access it without any problems.
+So **global variables** are **"shared"** across the whole file.
+
+### **Local Variables (Available Only Inside the Function)**
+A **local variable** is **created inside** a function.
+It **only exists while the function runs**, and **only inside** that function.
+
+#### Local Example:
   ```python
-  x = "awesome"
+  x = "awesome" # Global variable
 
   def myfunc():
-      x = "fantastic"
+      x = "fantastic" # Local variable, only exists inside myfunc
       print("Python is " + x)
 
   myfunc()
-  print("Python is " + x)
+  print("Python is " + x) # This prints "awesome", not "fantastic"
   ```
+- Inside `myfunc()`, `x` is **"fantastic"** (this is a **local** version of `x`).
+- Outside `myfunc()`, `x` is still **"awesome"** (the **global** one didn’t change).
+This means the **function creates its own copy** and **does not touch the global variable**.
+
+## Why This Matters
+- Local variables protect your code from accidentally changing important values.
+- But if you want to change the global variable, you have to declare it using the global keyword.
+
+#### Example of Changing a Global Variable:
+  ```python
+  x = "awesome"
+
+  def myfunc():
+      global x  # Tells Python to use the global variable
+      x = "fantastic"
+
+  myfunc()
+  print("Python is " + x)  # Now x has changed to "fantastic"
+  ```
+
 ---
 ## **Using global to Modify Global Variables**
   ```python
