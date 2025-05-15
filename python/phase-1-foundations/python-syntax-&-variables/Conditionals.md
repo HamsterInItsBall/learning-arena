@@ -33,7 +33,7 @@ if <condition>:
     <indented statement(s)>
 ```
 **When to use it:**
--Anytime you need your code to **react differently** based on a condition.
+- Anytime you need your code to **react differently** based on a condition.
 - Example: Show a discount only if the user is a member.
 - Example: Display a warning if an input is invalid.
 
@@ -58,7 +58,7 @@ if (condition) {
 }
 ```
 
-###**Which Is Better?**
+### **Which Is Better?**
 **Pros of Python’s Indentation:**
 - Cleaner and easier to read
 - Forces consistency
@@ -155,6 +155,7 @@ Be cautious—**deep nesting** reduces clarity.
 access = "granted" if user == "admin" else "denied"
 ```
 **Don’t** overuse it when you have many conditions—use `if-elif-else` instead.
+
 ---
 
 ## **The Python pass Statement**
@@ -174,6 +175,7 @@ if True:
 print('Program continues')
 ```
 **Remember to replace** it with real code when you’re ready.
+
 ---
 
 ## **Common Pitfalls and Beginner Mistakes with Examples**
