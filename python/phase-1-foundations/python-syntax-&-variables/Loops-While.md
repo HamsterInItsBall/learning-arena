@@ -94,6 +94,7 @@ while count < 5:
     print(count) # Print count if not skipped
 ```
 This will **skip printing 3**, showing 1, 2, 4, 5.
+
 ---
 
 3. `else`: Running Code at Natural Termination
