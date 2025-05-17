@@ -27,7 +27,7 @@ I'll also explore control flow, including conditionals and loops, and will build
 
 ---
 
-## **Project: Calculator**
+## **Project: [Calculator](./Project-Calculator)**
 
 To practice what I’ve learned, I will build a **simple calculator** that can:
 - Ask the user to choose an operation (addition, subtraction, etc.).
