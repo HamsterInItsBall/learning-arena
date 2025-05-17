@@ -21,7 +21,7 @@ I'll also explore control flow, including conditionals and loops, and will build
   - **Booleans** (`True`, `False`)
   - **Lists**, **Tuples**, **Sets**, and **Dictionaries** (covered more deeply in a later section)
 
-### **[Conditionals](./Conditionals.md) and Loops**
+### **[Conditionals](./Conditionals.md) and Loops([For](./Loops-For.md);[While](./Loops-While.md))**
 - Using **`if`, `elif`, `else`** to make decisions based on conditions.
 - Repeating actions with **`for` loops** and **`while` loops**.
 
@@ -41,6 +41,3 @@ This project will help me apply:
 - **Loops (if needed)**
 
 ---
-
-## 🚧 **Work in Progress**
-This section will be expanded with real examples, notes, and a working calculator script as I progress.
