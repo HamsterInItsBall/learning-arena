@@ -190,7 +190,7 @@ Use the `type()` function to check what type a variable is:
 
 ## **Setting the Data Type by Assignment**
 In Python, the data type is set when you assign a value:
-
+```python
 x = "Hello"                   # str
 x = 20                        # int
 x = 20.5                      # float
@@ -206,6 +206,7 @@ x = b"Hello"                  # bytes
 x = bytearray(5)              # bytearray
 x = memoryview(bytes(5))      # memoryview
 x = None                      # NoneType
+```
 
 ---
 
