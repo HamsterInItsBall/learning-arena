@@ -52,15 +52,11 @@ input("\nPress Enter to exit the program...")
 | **TC-002**   | Functional             | `2`, `5`, `3`                 | Displays `The residual is: 2`                            | Works as expected                 | ✅ Pass    |          |
 | **TC-003**   | Functional             | `3`, `3`, `3`                 | Displays `The product is: 9`                             | Works as expected                 | ✅ Pass    |          |
 | **TC-004**   | Functional             | `4`, `8`, `2`                 | Displays `The quotient is: 4.0`                          | Works as expected                 | ✅ Pass    |          |
-
 |              |                       |                              |                                                         |                                   |           |          |
-
 | **IV-001**   | Input Validation       | Invalid menu choice (e.g., 99) | Politely offers retry or exit                           | Ends with "Error. Try again" but no retry | ❌ Fail    | Needs retry loop |
 | **IV-002**   | Input Validation       | Invalid number (e.g., `abc`)  | Politely offers retry or exit                           | Program crashes with ValueError   | ❌ Fail    | Needs input validation and retry |
 | **IV-003**   | Input Validation       | `4`, `10`, `0`                | Displays `Cannot divide by zero!`                        | Crashes with ZeroDivisionError    | ❌ Fail    | Needs zero check  |
-
 |              |                       |                              |                                                         |                                   |           |          |
-
 | **UX-001**   | User Experience        | Program start                | Greets user and clearly shows menu options               | Menu shown, looks fine            | ✅ Pass    | -        |
 | **UX-002**   | User Experience        | Displayed menu               | Menu is clear and readable                              | Menu is clear                     | ✅ Pass    | -        |
 | **UX-003**   | User Experience        | After completing calculation  | Asks if user wants to continue or exit                   | Program ends without asking       | ❌ Fail    | Add repeat prompt |
