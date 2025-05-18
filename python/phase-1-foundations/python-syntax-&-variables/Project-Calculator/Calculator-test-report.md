@@ -1,9 +1,17 @@
 # 📚 Calculator - Test Report
 
+## 🧮 **Simple Calculator - First Version Review**
 This report tracks the initial testing results of my Python Calculator.
 
-## 🔧 Version Under Test #1
+### 📋 **What This Version Does**
 
+This version:
+- Asks the user to choose one of four operations.
+- Requests two numbers.
+- Performs the selected operation and prints the result.
+- Exits after showing the result.
+
+### 🔧 Current Code #1
 ```python
 print("Welcome to the Calculator!")
 print("Choose available operations:\n")
@@ -44,7 +52,7 @@ input("\nPress Enter to exit the program...")
 | **User Experience**  | *“Is the program **pleasant, understandable, and clear** to use?”*      | **Friendly text**, **clear flow**, **polite behavior** |
 
 ---
-# 🔨 Calculator - Combined Test Report
+### 🔨 Calculator - Combined Test Report
 
 | **Test Case** | **Test Type**         | **Input Example**            | **Expected Behavior**                                   | **Actual Behavior**               | **Status** | **Notes** |
 |--------------|-----------------------|------------------------------|---------------------------------------------------------|-----------------------------------|-----------|----------|
@@ -62,5 +70,23 @@ input("\nPress Enter to exit the program...")
 | **UX-003**   | User Experience        | After completing calculation  | Asks if user wants to continue or exit                   | Program ends without asking       | ❌ Fail    | Add repeat prompt |
 | **UX-004**   | User Experience        | Enters `YES` or `yes` to exit | Program accepts both uppercase and lowercase input      | Not implemented                   | ⚠️ To Do   | Add .lower() normalization |
 |              |                       |                              |                                                         |                                   |           |          |
+
+---
+
+### 🚧 What Can Be Improved in This Version
+
+1. **Input Validation**:
+    - Catch non-numeric inputs like `abc`.
+    - Validate menu selection (1-4).
+2. **Error Handling**:
+    - Handle **division by zero** gracefully.
+3. **User Experience Improvements**:
+    - Offer to **repeat or exit** after each operation.
+    - Accept **uppercase and lowercase** responses (`YES`, `yes`, `y`, etc.).
+4. **Looping**:
+    - Allow **multiple calculations** without restarting the program.
+5. **Code Cleanliness (Optional Advanced Refactor)**:
+    - Use **functions** to avoid repeating the same input code.
+    - Add **clear error messages**.
 
 ---
