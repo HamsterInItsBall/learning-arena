@@ -1,4 +1,3 @@
-Now it's look like this:
 print("Welcome to the Calculator!")
 print("Choose available operations:\n")
 print("1. Add number to number")
